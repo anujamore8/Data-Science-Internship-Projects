@@ -1,47 +1,83 @@
+# Data Science Internship Projects | Ausify Technologies
 
-# Data Science Internship Projects
+Welcome to my Data Science Internship Projects repository. This repository showcases six practical projects completed as part of my internship at **Ausify Technologies**.
 
-A collection of data science projects completed during my internship at **Ausify Technologies**.
+The projects demonstrate my hands-on experience in Python, data analysis, data visualization, recommendation systems, machine learning, and business insights.
 
-This repository demonstrates practical experience in data cleaning, exploratory data analysis, recommendation systems, trend analysis, machine learning classification, and business intelligence.
+## Projects Overview
+
+| No. | Project | Notebook |
+|---|---|---|
+| 1 | Data Cleaning & Preprocessing | [View Notebook](task1%20data%20Cleaning.ipynb) |
+| 2 | Exploratory Data Analysis | [View Notebook](Task%202.ipynb) |
+| 3 | Recommendation System Analysis | [View Notebook](task%203.ipynb) |
+| 4 | Trend Prediction Analysis | [View Notebook](Task%204.ipynb) |
+| 5 | Machine Learning Classification | [View Notebook](task%205.ipynb) |
+| 6 | Business Insights Dashboard | [View Notebook](Task%206.ipynb) |
+
+## Interactive Dashboard
+
+Explore the interactive Netflix Business Insights Dashboard:
+
+[**Open Netflix Business Insights Dashboard**](Netflix_Business_Insights_Dashboard.html)
+
+The dashboard presents:
+- Movie vs TV Show distribution
+- Yearly content additions
+- Top 10 countries
+- Top 10 genres
 
 ## Technologies & Tools
 
-- **Programming:** Python
-- **Data Analysis:** Pandas, NumPy
-- **Data Visualization:** Matplotlib, Seaborn, Plotly
-- **Machine Learning:** Scikit-learn
-- **Environment:** Jupyter Notebook
-
-## Projects
-
-| Task | Project | Skills Demonstrated |
-|---|---|---|
-| 1 | Data Cleaning & Preprocessing | Data quality, missing values, duplicates, preprocessing |
-| 2 | Exploratory Data Analysis | Statistical analysis, visualization, pattern identification |
-| 3 | Recommendation System Analysis | Content-based recommendation concepts and analysis |
-| 4 | Trend Prediction Analysis | Time-based analysis and trend exploration |
-| 5 | Machine Learning Classification | Feature engineering, Logistic Regression, Random Forest, model evaluation |
-| 6 | Business Insights Dashboard | Business analysis, Linear Regression, interactive Plotly dashboard |
+| Category | Tools |
+|---|---|
+| Programming | Python |
+| Data Manipulation | Pandas, NumPy |
+| Data Visualization | Matplotlib, Seaborn, Plotly |
+| Machine Learning | Scikit-learn |
+| Development Environment | Jupyter Notebook |
 
 ## Dataset
 
-The projects use the Netflix titles dataset, containing information about movies and TV shows, including genres, countries, release years, ratings, and dates added.
+The projects use Netflix catalogue data containing information about movies and TV shows, including release years, countries, genres, ratings, and dates added.
 
-## Key Learning Outcomes
+- [Original Dataset](Dataset.csv)
+- [Cleaned Dataset](netflix_cleaned.csv)
 
-- Cleaned and prepared structured datasets using Pandas.
-- Explored data distributions and trends through visualizations.
-- Applied recommendation and predictive analysis techniques.
-- Trained and evaluated machine learning classification models.
-- Built an interactive business insights dashboard using Plotly.
-- Communicated analytical findings and business recommendations.
+## Key Skills Demonstrated
 
-## Project Limitations
+- Data cleaning and preprocessing
+- Exploratory data analysis (EDA)
+- Data visualization and storytelling
+- Recommendation system concepts
+- Trend analysis and prediction
+- Feature engineering and classification
+- Logistic Regression and Random Forest
+- Model evaluation and performance comparison
+- Interactive dashboard development
+- Business insights and recommendations
 
-Model performance and business conclusions should be interpreted in the context of the available dataset. The Netflix catalogue data does not contain subscriber engagement, viewing hours, or revenue information.
+## Important Project Findings
+
+- Analyzed a cleaned Netflix dataset containing 8,790 records.
+- Identified catalogue distribution across Movies and TV Shows.
+- Explored country-wise and genre-wise content patterns.
+- Built and evaluated classification models using Scikit-learn.
+- Developed an interactive business insights dashboard using Plotly.
+
+**Model evaluation note:** The classification models achieved 100% test accuracy on the selected dataset split. This result should be interpreted cautiously because catalogue metadata can strongly reveal content type and does not establish performance on independent future data.
+
+The Linear Regression trend model achieved an R² of -8.009 on its test period, indicating weak predictive performance.
+
+## Limitations
+
+The Netflix dataset contains catalogue metadata and does not provide subscriber counts, viewing hours, revenue, or customer engagement data. Business recommendations are therefore exploratory rather than confirmed business outcomes.
 
 ## Author
 
-Aspiring Data Analyst | Python | SQL | Power BI | Machine Learning
+**Aspiring Data Analyst**
+
+Skills: Python | SQL | Excel | Power BI | Data Analysis | Machine Learning
+
+[GitHub Profile](https://github.com/anujamore8)
 
